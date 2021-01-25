@@ -1,0 +1,41 @@
+footer
+{
+    background-color: #353535;
+    color: #fff;
+    padding: 1rem;
+    line-height: 1.5em;
+
+    & div
+    {
+        display: flex;
+        margin-right: 1em;
+    }
+
+    & .footer--logo
+    {
+        font-family: 'shrikhand';
+        margin-bottom: 1em;
+    }
+
+    & p
+    {
+        margin: 0px;
+    }
+
+    & i
+    {
+        font-size: 1em;
+    }
+    
+    & .logo--emoticone
+    {
+        height: 20px;
+        width: 20px;
+    }
+
+    & a 
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+}

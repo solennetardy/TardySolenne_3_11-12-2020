@@ -12,43 +12,10 @@
 *
 {font-family: 'roboto';}
 
-h1
-{
-    font-size: 1.5em;
-    font-weight: bolder;
-    margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
-}
-
-h2
-{
-    font-size: 1em;
-    margin-top: 0.5rem;
-    margin-bottom: 0.7rem;
-}
-
-h4,h5
-{
-    font-size: 0.9em;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
 body
 {
     margin: 0 auto;
     max-width: 450px;
-}
-
-header
-{
-    text-align: center;
-}
-
-header img
-{
-    margin-top: 1em;
-    margin-bottom: 1em;
 }
 
 form
@@ -64,20 +31,6 @@ form input
     border: none;
     background: #eaeaea;
     text-align: center;
-}
-
-header div
-{
-    padding: 0 2em 0 2em;
-}
-
-#explorer
-{
-    border-radius: 50px;
-    background-image: linear-gradient(#FF79DA, #9356DC);
-    color: #fff;
-    padding: 1em;
-    border: none;
 }
 
 #fonction
