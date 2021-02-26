@@ -1,3 +1,8 @@
+*
+{
+    font-family: 'roboto';
+}
+
 h1
 {
     font-size: 1.5em;
@@ -16,11 +21,29 @@ h2
 h3
 {
     font-family: 'shrikhand';
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-h4,h5
+h4
 {
     font-size: 0.9em;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    font-weight: bold;
 }
+
+h5
+{
+    font-size: 0.9em;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: lighter;
+}
+
+h6
+{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+

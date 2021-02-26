@@ -1,0 +1,13 @@
+form
+{
+    width: 100%;
+    padding: 1em 0;
+    background: #eaeaea;
+
+    & input
+    {
+        border: none;
+        background: #eaeaea;
+        text-align: center;
+    }
+}

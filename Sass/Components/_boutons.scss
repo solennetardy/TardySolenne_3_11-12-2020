@@ -1,8 +1,20 @@
 .bouton
 {
     border-radius: 50px;
-    background-image: linear-gradient(#FF79DA, #9356DC);
+    background-image: $colour-btn;
     color: #fff;
-    padding: 1em;
+    padding: 1em 2em;
     border: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    @include shadow;
+
+    &:hover
+    {
+        background-image: linear-gradient(lighten($colour-secondary,5%),lighten($colour-primary,5%));
+        box-shadow : 5px 5px 3px grey;
+    }
 }

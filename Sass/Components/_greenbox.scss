@@ -1,0 +1,35 @@
+.greenbox{
+    background-color: $colour-thirdly;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: collapse;
+}
+
+.platprix{
+    overflow: hidden;
+}
+
+.platprix:hover .joli{
+    transform: translateX(0);
+}
+
+.platprix:hover .greenbox{
+    visibility: visible;
+}
+
+.joli{
+    display: flex;
+    transform: translateX(30px);
+    transition: transform 1s linear;
+    overflow: hidden;
+}
+
+.platprix:hover i{
+    transform: rotate(360deg);
+    transition: transform 500ms 750ms;
+}
+

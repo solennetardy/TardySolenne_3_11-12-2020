@@ -1,0 +1,22 @@
+.carte i{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.plein{
+    
+    background: linear-gradient($colour-secondary,$colour-primary);
+    background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+display: none;
+}
+
+
+.coeur:hover .contour{
+display: none;    
+}
+    
+.coeur:hover .plein{
+    display: block;
+}

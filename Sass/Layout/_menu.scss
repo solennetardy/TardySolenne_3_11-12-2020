@@ -1,0 +1,79 @@
+.back{
+    z-index: -1;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.etape--description{
+    width: 80%;
+}
+
+.menuentier{
+    margin-top: -50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    background-color: #f6f6f6;
+    padding: 1rem ;
+}
+
+.underspan{
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+    text-decoration-color: $colour-thirdly;
+}
+
+.prix{
+    padding: 1em 1em 0 0;
+}
+
+.carte{
+    display: flex;
+    justify-content: space-between;
+    
+    &i{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+.platprix{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    @include shadow;
+    margin-bottom: 2em;
+    width: 90%;
+    background-color: white;
+    padding-left: 1rem;
+}
+
+.nomduplat, .descriptionduplat, .etape--description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* animation sur l'arrivée du menu*/
+
+@keyframes animmenu{
+    0%{
+        transform: translateX(-9999px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.entrées{
+    animation: animmenu 700ms 0.5s;
+}
+
+.plats{
+    animation: animmenu 700ms 1s;
+}
+
+.desserts{
+    animation: animmenu 700ms 1.5s;
+}

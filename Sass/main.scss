@@ -1,6 +1,15 @@
 @import "./Base/polices";
+@import "./Base/body";
 @import "./Utils/variables";
-@import "./Base/titres";
+@import "./Utils/mixins";
+@import "./Base/typography";
 @import "./Components/boutons";
+@import "./Components/heart";
+@import "./Components/greenbox";
 @import "./Layout/header";
 @import "./Layout/footer";
+@import "./Layout/menu";
+@import "./Pages/homerestaurant";
+@import "./Pages/homefonctionnement";
+@import "./Pages/spinner";
+@import "./Layout/formulaire";
