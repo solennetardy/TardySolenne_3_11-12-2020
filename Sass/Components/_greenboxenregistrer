@@ -1,0 +1,17 @@
+.greenbox{
+    background-color: $colour-thirdly;
+    width: 20%;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    display: none;
+    transition: transform 3s;
+    transform: translateX(150px);
+}
+
+.platprix:hover .greenbox{
+    display: block;
+}
+
+.platprix:hover +.greenbox{
+   transform: translateX(-100px); 
+}

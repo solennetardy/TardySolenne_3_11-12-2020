@@ -11,21 +11,19 @@ h1
     margin-bottom: 0.7rem;
 }
 
-h2
+.carte h1
+{
+    font-family: 'shrikhand';
+}
+
+.grtitre
 {
     font-size: 1em;
     margin-top: 0.5rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 1rem;
 }
 
-h3
-{
-    font-family: 'shrikhand';
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-h4
+.titre
 {
     font-size: 0.9em;
     margin-top: 0.5rem;
@@ -33,17 +31,17 @@ h4
     font-weight: bold;
 }
 
-h5
+.sstitre
 {
     font-size: 0.9em;
-    margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
-h6
+.special
 {
     font-size: 1em;
     margin-bottom: 1em;
+    font-weight: 100;
 }
 

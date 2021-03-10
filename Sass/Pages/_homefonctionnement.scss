@@ -4,6 +4,8 @@
     flex-direction: column;
     justify-content: space-between;
     padding-left: 1em;
+    margin: 0 auto;
+    margin-bottom: 2em;
 }
 
 .fonctionnement
@@ -11,9 +13,10 @@
     display: flex;
     background: #f6f6f6;
     border-radius: 20px;
-    width: 90%;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 2em;
-    box-shadow: 6px 6px 6px #7e7e7e;
+    @include shadow
 
     & div
     {
@@ -35,4 +38,9 @@
     {
         color: #7e7e7e;
     }
+}
+
+.fonctionnement--purple
+{
+    background-color: #f5edff;
 }

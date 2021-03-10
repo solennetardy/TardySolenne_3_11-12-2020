@@ -1,8 +1,11 @@
 .back{
-    z-index: -1;
-    height: auto;
     width: 100%;
     overflow: hidden;
+}
+
+.note{
+    height: 60%;
+    width:auto;
 }
 
 .etape--description{
@@ -38,12 +41,16 @@
     }
 }
 
+.carte--etape{
+    margin-top: 2.5em;
+}
+
 .platprix{
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
     @include shadow;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     width: 90%;
     background-color: white;
     padding-left: 1rem;
