@@ -20,4 +20,9 @@
         background-image: linear-gradient(lighten($colour-secondary,5%),lighten($colour-primary,5%));
         box-shadow : 5px 5px 3px grey;
     }
+
+    a
+    {
+        text-decoration: none;
+    }
 }

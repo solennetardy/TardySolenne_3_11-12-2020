@@ -45,6 +45,10 @@ main {
   font-family: 'roboto';
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 1.5em;
   font-weight: bolder;
@@ -105,6 +109,10 @@ h1 {
   background-image: linear-gradient(#ff93e1, #a16be0);
   -webkit-box-shadow: 5px 5px 3px grey;
           box-shadow: 5px 5px 3px grey;
+}
+
+.bouton a {
+  text-decoration: none;
 }
 
 .carte i {
